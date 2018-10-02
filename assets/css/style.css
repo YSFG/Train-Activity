@@ -1,0 +1,26 @@
+/*CLASSES*/
+.background {
+    background-image: url("../images/stock-photo.jpg") ;
+    background-size: cover;    
+    background-position: center;
+    background-blend-mode: multiply;  
+    margin-top: 20px;  
+    /* background-color: rgba(0,0,0,0.5); */
+}
+
+.title {
+    color: white;
+    margin-left: 20px;
+}
+.header {
+    background-color: rgb(7, 129, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* IDs */
+#timer {
+    color: white;
+    margin-left: 25px;
+}
