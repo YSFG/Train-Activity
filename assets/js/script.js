@@ -87,28 +87,11 @@ $(document).ready(function () {
 
     var myVar = setInterval(myTimer, 1000);
 
-    function myTimer() {
-        //still working on updating minutes away, decreasing by a minute until reaching 0 minutes away
-        // var tMinute = $(".minutes");
-
-        
-        // for (i = 0; i < tMinute.length; i++) { 
-
-        //     console.log(tMinute[i].textContent);
-        //     var tTimer =parseInt(tMinute[i].textContent);
-        //     tTimer--;
-
-        //     tMinute[i].textContent = tTimer;
-
-        // }
-                        
-        var d = new Date();
-        document.getElementById("timer").innerHTML = d.toLocaleTimeString();
-        var timeString = d.toLocaleTimeString()
-        var seconds = timeString.split(':')[2]
-        if(seconds == 0){
-            decrementTime()
-        }
-    }
+       function myTimer() {
+           var d = new Date();
+           document.getElementById("timer").innerHTML = d.toLocaleTimeString();
+       }
+    
     myVar();
+    
 });

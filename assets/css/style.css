@@ -1,11 +1,11 @@
 /*CLASSES*/
 .background {
-    background-image: url("../images/stock-photo.jpg") ;
+    background-image: url("../images/big-stock-photo.jpg") ;
     background-size: cover;    
     background-position: center;
     background-blend-mode: multiply;  
     margin-top: 20px;  
-    /* background-color: rgba(0,0,0,0.5); */
+    background-color: rgba(0,0,0,0.2); 
 }
 
 .title {
